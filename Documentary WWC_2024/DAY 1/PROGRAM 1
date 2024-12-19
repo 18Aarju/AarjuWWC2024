@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    string name, uid, section, areaOfInterest, hometown, dob;
+    string name, uid, section, areaOfInterest, hometown, dob, aiminlife;
     int age;
     float cgpa;
 
@@ -31,6 +31,9 @@ int main() {
 
     cout << "Enter your Hometown: ";
     getline(cin, hometown);
+    
+    cout << "Aim in Life: ";
+    getline(cin, aiminlife);
 
     cout << "\n=== Academic Bio-Data ===" << endl;
     cout << "Name: " << name << endl;
@@ -41,6 +44,7 @@ int main() {
     cout << "CGPA: " << cgpa << endl;
     cout << "Date of Birth: " << dob << endl;
     cout << "Hometown: " << hometown << endl;
+    cout << "Aim in Life: " << aiminlife << endl;
 
     return 0;
 }
