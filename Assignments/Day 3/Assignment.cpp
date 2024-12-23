@@ -1,4 +1,6 @@
-CODE:
+/*CODE:
+TIC TAC TOE
+*/
 
 #include <iostream>
 using namespace std;
@@ -96,7 +98,7 @@ int main()
 }
 
 
-
+/*
 
 
 OUTPUT:
@@ -196,3 +198,5 @@ Player X wins!
 -------------
 | X | O | X | 
 -------------
+
+*/
