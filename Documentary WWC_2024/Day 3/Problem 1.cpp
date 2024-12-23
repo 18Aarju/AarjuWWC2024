@@ -1,4 +1,4 @@
-INPUT:
+
 
 #include <iostream>
 #include <vector> // Include the vector header
@@ -82,7 +82,9 @@ int main() {
     return 0;
 }
 
-
+/*
 OUTPUT:
 
 7 -> 0 -> 8 -> nullptr
+
+*/
